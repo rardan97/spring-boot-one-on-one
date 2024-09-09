@@ -19,7 +19,7 @@ https://github.com/rardan97/spring-boot-one-on-one.git
 
 3. open project with intellij IDEA then edit config database in application.properties change database name, username and password match your config db
 
-   #### location : spring-boot-curd-api/src/main/resources/application.properties
+   #### location : spring-boot-one-on-one/src/main/resources/application.properties
 
 ```
 spring.application.name=spring-boot-one-on-one
