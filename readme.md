@@ -3,7 +3,7 @@
 ## System Requirements
 
 - Java openjdk : ( version "17.0.2")
-- Spring Boot : (version 3.2.5)
+- Spring Boot : (version 3.3.3)
 - MySQL Database
 - Maven : (Apache Maven 3.9.3)
 - Editor : (Intellij IDEA 2023.1.1 Community Edition)
@@ -29,4 +29,14 @@ spring.datasource.username=root
 spring.datasource.password=
 spring.datasource.driver-class-name =com.mysql.jdbc.Driver
 spring.jpa.database-platform=org.hibernate.dialect.MySQLDialect
+```
+
+
+4. open terminal input command
+```
+mvn clean install 
+```
+5. if success next input command
+```
+mvn spring-boot:run
 ```
